@@ -12,7 +12,7 @@ void AESLib::gen_iv(byte  *iv) {
     }
 }
 
-String AESLib::decrypt(String msg, byte key[], byte my_iv[]) {
+/*String AESLib::decrypt(String msg, byte key[], byte my_iv[]) {
   
   aes.set_key(key, sizeof(key));
   //int base64_decode(char * output, char * input, int inputLen) {
@@ -33,7 +33,7 @@ String AESLib::decrypt(String msg, byte key[], byte my_iv[]) {
   
   //N_BLOCK
 
-}
+}*/
 
 /*void decrypt(String b64data, String IV_base64, int size)
 {
