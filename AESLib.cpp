@@ -64,8 +64,6 @@ String AESLib::encrypt(String msg, byte key[], byte my_iv[]) {
   int b64len = base64_encode(b64data, (char *)msg.c_str(),msg.length());
   // Encrypt! With AES128, our key and IV, CBC and pkcs7 padding    
   aes.do_aes_encrypt((byte *)b64data, b64len , cipher, key, 128, my_iv);
-  base64_encode(b64data, (char *)cipher, aes.get_size() );
-  
-  Serial.println("Cipher size: " + String(aes.get_size()));
+  base64_encode(b64data, (char *)cipher, aes.get_size() );  
   return String(b64data);  
 }
