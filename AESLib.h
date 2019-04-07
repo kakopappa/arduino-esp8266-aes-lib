@@ -3,7 +3,7 @@
 
 #include "Arduino.h"
 #include "AES.h"
-#include "base64.h"
+#include "Base64.h"
 
 class AESLib
 {
