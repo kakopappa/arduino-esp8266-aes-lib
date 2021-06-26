@@ -3,7 +3,7 @@
 
 ### Deprecated. 
 
-Please use below project instead. 
+Please use this project instead: 
 https://github.com/kakopappa/esp8266-aes-cbc-encryption-decryption
 
 
